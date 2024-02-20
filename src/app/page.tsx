@@ -1,9 +1,10 @@
+"use client";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 export default function Home() {
   return (
     <>
